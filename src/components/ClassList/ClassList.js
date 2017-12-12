@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import ClassList from './ClassList'
 export default class ClassList extends Component {
   constructor() {
     super()
@@ -11,7 +11,7 @@ export default class ClassList extends Component {
       <div className="box">
         <h1></h1>
         <h2>ClassList:</h2>
-
+          <Route path="/classlist/:class" component = {ClassList}
       </div>
     )
   }
